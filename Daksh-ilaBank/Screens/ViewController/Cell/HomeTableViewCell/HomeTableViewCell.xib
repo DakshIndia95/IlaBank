@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeTableViewCell" rowHeight="79" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="Daksh_ilaBank" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="433" height="79"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="433" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kpt-vd-aDb">
+                        <rect key="frame" x="0.0" y="0.0" width="433" height="66"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="india_cricket" translatesAutoresizingMaskIntoConstraints="NO" id="Ea3-Ll-9Ct">
+                                <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="kUH-fN-M3L"/>
+                                    <constraint firstAttribute="height" constant="50" id="zcu-xd-ysi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFI-kZ-utj">
+                                <rect key="frame" x="74" y="22.666666666666671" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yFI-kZ-utj" firstAttribute="centerY" secondItem="Ea3-Ll-9Ct" secondAttribute="centerY" id="INU-MD-4xt"/>
+                            <constraint firstAttribute="trailing" secondItem="yFI-kZ-utj" secondAttribute="trailing" constant="16" id="Ljo-lP-bCt"/>
+                            <constraint firstItem="Ea3-Ll-9Ct" firstAttribute="top" secondItem="Kpt-vd-aDb" secondAttribute="top" constant="8" id="PDL-dJ-AyM"/>
+                            <constraint firstItem="yFI-kZ-utj" firstAttribute="leading" secondItem="Ea3-Ll-9Ct" secondAttribute="trailing" constant="16" id="XVm-qJ-ltD"/>
+                            <constraint firstItem="Ea3-Ll-9Ct" firstAttribute="centerY" secondItem="Kpt-vd-aDb" secondAttribute="centerY" id="ajH-zS-MeZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Ea3-Ll-9Ct" secondAttribute="bottom" constant="8" id="hgT-83-ySH"/>
+                            <constraint firstItem="Ea3-Ll-9Ct" firstAttribute="leading" secondItem="Kpt-vd-aDb" secondAttribute="leading" constant="8" id="tBd-Ah-nmC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kpt-vd-aDb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="KXU-PJ-fAY"/>
+                    <constraint firstAttribute="trailing" secondItem="Kpt-vd-aDb" secondAttribute="trailing" id="Vog-t5-QaB"/>
+                    <constraint firstAttribute="bottom" secondItem="Kpt-vd-aDb" secondAttribute="bottom" id="bmC-Ck-mI2"/>
+                    <constraint firstItem="Kpt-vd-aDb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jc5-wT-BSe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgLogo" destination="Ea3-Ll-9Ct" id="BQ9-Kt-KlQ"/>
+                <outlet property="lblName" destination="yFI-kZ-utj" id="nrn-xj-EMI"/>
+            </connections>
+            <point key="canvasLocation" x="186.92307692307691" y="33.056872037914694"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="india_cricket" width="1920" height="1080"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

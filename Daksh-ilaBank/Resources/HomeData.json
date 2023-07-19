@@ -1,0 +1,161 @@
+
+{
+    "data" : [
+        {
+            "sportsName" : "Cricket",
+            "logo" : "cricket",
+            "teams" : [
+                {
+                    "name" : "India Cricket",
+                    "logo" : "india_cricket"
+                },
+                {
+                    "name" : "Australia Cricket",
+                    "logo" : "australia_cricket"
+                },
+                {
+                    "name" : "England Cricket",
+                    "logo" : "england_cricket"
+                },
+                {
+                    "name" : "Netherland Cricket",
+                    "logo" : "netherland_cricket"
+                },
+                {
+                    "name" : "New Zealand Cricket",
+                    "logo" : "newzealand_cricket"
+                },
+                {
+                    "name" : "Oman Cricket",
+                    "logo" : "oman_cricket"
+                },
+                {
+                    "name" : "Pakistan Cricket",
+                    "logo" : "pakistan_cricket"
+                },
+                {
+                    "name" : "South Africa Cricket",
+                    "logo" : "sa_cricket"
+                },
+                {
+                    "name" : "SriLanka Cricket",
+                    "logo" : "sl_cricket"
+                },
+                {
+                    "name" : "USA Cricket",
+                    "logo" : "usa_cricket"
+                },
+                {
+                    "name" : "West Indies Cricket",
+                    "logo" : "wi_cricket"
+                }
+            ]
+        },{
+            "sportsName" : "Football",
+            "logo" : "football",
+            "teams" : [
+                {
+                    "name" : "India Football",
+                    "logo" : "india_football"
+                },
+                {
+                    "name" : "France Football",
+                    "logo" : "france_football"
+                },
+                {
+                    "name" : "Germany Football",
+                    "logo" : "germany_football"
+                },
+                {
+                    "name" : "Spain Football",
+                    "logo" : "spain_football"
+                },
+                {
+                    "name" : "England Football",
+                    "logo" : "england_football"
+                },
+                {
+                    "name" : "Australia Football",
+                    "logo" : "aus_football"
+                },
+                {
+                    "name" : "Japan Football",
+                    "logo" : "japan_football"
+                },
+                {
+                    "name" : "Brazil Football",
+                    "logo" : "brazil_football"
+                },
+                {
+                    "name" : "Argentina Football",
+                    "logo" : "argentina_football"
+                },
+                {
+                    "name" : "Chile Football",
+                    "logo" : "chile_football"
+                },
+                {
+                    "name" : "Belgium Football",
+                    "logo" : "belgium_football"
+                },
+                {
+                    "name" : "Netherland Football",
+                    "logo" : "netherland_football"
+                },
+                {
+                    "name" : "Portugal Football",
+                    "logo" : "portugal_football"
+                },
+                {
+                    "name" : "Sweden Football",
+                    "logo" : "sweden_football"
+                },
+                {
+                    "name" : "Poland Football",
+                    "logo" : "poland_football"
+                }
+            ]
+        },{
+            "sportsName" : "Hockey",
+            "logo" : "hockey",
+            "teams" : [
+                {
+                    "name" : "India Hockey",
+                    "logo" : "india_hockey"
+                },
+                {
+                    "name" : "Pakistan Hockey",
+                    "logo" : "pakistan_hockey"
+                },
+                {
+                    "name" : "Australia Hockey",
+                    "logo" : "australia_hockey"
+                },
+                {
+                    "name" : "New Zealand Hockey",
+                    "logo" : "nz_hockey"
+                },
+                {
+                    "name" : "France Hockey",
+                    "logo" : "france_hockey"
+                },
+                {
+                    "name" : "England Hockey",
+                    "logo" : "england_hockey"
+                },
+                {
+                    "name" : "Germany Hockey",
+                    "logo" : "germany_hockey"
+                },
+                {
+                    "name" : "Netherland Hockey",
+                    "logo" : "netherland_hockey"
+                },
+                {
+                    "name" : "Belgium Hockey",
+                    "logo" : "belgium_hockey"
+                }
+            ]
+        }
+    ]
+}
